@@ -9,10 +9,10 @@ namespace ctci
 		{
 			// TODO check for null
 
-			List<char> found = new List<char> ();
+			Dictionary<char, bool> found = new Dictionary<char, bool>();
 			for (int i = 0; i < s.Length; ++i) {
-				if (!found.Contains (s [i]))
-					found.Add (s [i]);
+				if (!found.ContainsKey (s [i]))
+					found [s [i]] = true;
 				else
 					return false;
 			}
