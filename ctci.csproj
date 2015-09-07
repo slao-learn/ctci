@@ -36,6 +36,7 @@
     <Compile Include="Q2_1.cs" />
     <Compile Include="LinkedListNode.cs" />
     <Compile Include="Stack.cs" />
+    <Compile Include="Q3_1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
