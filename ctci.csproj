@@ -34,4 +34,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="Q1_1.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
 </Project>
