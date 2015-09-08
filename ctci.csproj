@@ -31,7 +31,6 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="Main.cs" />
     <Compile Include="Q1_1.cs" />
     <Compile Include="Q2_1.cs" />
     <Compile Include="LinkedListNode.cs" />
@@ -41,6 +40,8 @@
     <Compile Include="Q4_1.cs" />
     <Compile Include="Q5_1.cs" />
     <Compile Include="Q8_1.cs" />
+    <Compile Include="Q10_1.cs" />
+    <Compile Include="MainClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
