@@ -40,6 +40,7 @@
     <Compile Include="Graph.cs" />
     <Compile Include="Q4_1.cs" />
     <Compile Include="Q5_1.cs" />
+    <Compile Include="Q8_1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
