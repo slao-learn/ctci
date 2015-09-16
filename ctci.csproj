@@ -47,6 +47,7 @@
     <Compile Include="Q1_2.cs" />
     <Compile Include="Q1_3.cs" />
     <Compile Include="Q2_2.cs" />
+    <Compile Include="Q2_3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
