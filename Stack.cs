@@ -21,7 +21,7 @@ namespace ctci
 		{
 		}
 
-		public T Pop()
+		public virtual T Pop()
 		{
 			if (top == null)
 				throw new Exception ("Empty stack");
@@ -30,23 +30,41 @@ namespace ctci
 			return result;
 		}
 
-		public void Push(T value)
+		public virtual void Push(T value)
 		{
 			StackNode newNode = new StackNode (value);
 			newNode.next = top;
 			top = newNode;
 		}
 
-		public T Peek()
+		public virtual T Peek()
 		{
 			if (top == null)
 				throw new Exception ("Empty stack");
 			return top.data;
 		}
 
-		public bool IsEmpty()
+		public virtual bool IsEmpty()
 		{
 			return (top == null);
+		}
+
+		public override string ToString ()
+		{
+			if (top == null)
+				return "null";
+			
+			string s = "";
+			StackNode n = top;
+			while (n != null) {
+				if (n.next != null)
+					s += n.data + " -> ";
+				else
+					s += n.data;
+				n = n.next;
+			}
+
+			return s;
 		}
 	}
 }
