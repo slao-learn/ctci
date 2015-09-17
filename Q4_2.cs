@@ -33,6 +33,7 @@ namespace ctci
 			Console.WriteLine (CreateMinimalBST (new int[] { 1, 2, 3 }));
 			Console.WriteLine (CreateMinimalBST (new int[] { 1, 2, 3, 4, 5, 6 }));
 			Console.WriteLine (CreateMinimalBST (new int[] { 1, 3, 4, 5, 6, 7, 10 }));
+			Console.WriteLine (CreateMinimalBST (new int[] { 1, 3, 4, 5, 6, 7, 10, 12, 15, 16, 17, 20, 50, 75, 100 }));
 		}
 
 	}
