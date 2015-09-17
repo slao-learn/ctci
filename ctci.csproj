@@ -52,6 +52,8 @@
     <Compile Include="Q2_3.cs" />
     <Compile Include="Q3_2.cs" />
     <Compile Include="Q3_3.cs" />
+    <Compile Include="BTNode.cs" />
+    <Compile Include="Q4_2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
