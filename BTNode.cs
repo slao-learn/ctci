@@ -6,12 +6,39 @@ namespace ctci
 	public class BTNode
 	{
 		public int data;
-		public BTNode left;
-		public BTNode right;
+
+		private BTNode _left;
+		public BTNode left
+		{
+			get {
+				return _left;
+			}
+			set {
+				_left = value;
+				if (_left != null)
+					_left.parent = this;
+			}
+		}
+
+		private BTNode _right;
+		public BTNode right
+		{
+			get {
+				return _right;
+			}
+			set {
+				_right = value;
+				if (_right != null)
+					_right.parent = this;
+			}
+		}
+
+		public BTNode parent;
 
 		public BTNode(int data)
 		{
 			this.data = data;
+			this.parent = null;
 		}
 
 		public override string ToString ()
