@@ -6,19 +6,19 @@ namespace ctci
 	{
 		public static bool IsBalanced(BTNode t)
 		{
-			return GetHeight (t, 0) > 0;
+			return GetHeight (t) > 0;
 		}
 
-		private static int GetHeight(BTNode n, int h)
+		private static int GetHeight(BTNode n)
 		{
 			if (n == null)
-				return h;
-			int left = GetHeight (n.left, h + 1);
+				return 0;
+			int left = GetHeight (n.left);
 			if (left == -1) return -1;
-			int right = GetHeight (n.right, h + 1);
+			int right = GetHeight (n.right);
 			if (right == -1) return -1;
 			if (Math.Abs(left - right) > 1) return -1;
-			return Math.Max(left, right);
+			return Math.Max(left, right) + 1;
 		}
 
 		public static void RunTests()
