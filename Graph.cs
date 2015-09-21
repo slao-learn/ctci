@@ -11,6 +11,7 @@ namespace ctci
 	public class GraphNode<T>
 	{
 		public T data;
+		public bool visited = false;
 		public List<GraphNode<T>> children;
 
 		public GraphNode(T data, List<GraphNode<T>> children)

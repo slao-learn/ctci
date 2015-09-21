@@ -8,7 +8,7 @@ namespace ctci
 		{
 			if (n == null)
 				return null;
-			if (n.right != null) {
+			if (n.right != null) {	
 				n = n.right;
 				while (n.left != null)
 					n = n.left;
