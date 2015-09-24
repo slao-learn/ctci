@@ -6,7 +6,7 @@ namespace ctci
 	{
 		public static void Main(string[] args)
 		{
-			Q8_2.RunTests ();
+			Q8_4.RunTests ();
 		}
 	}
 }
