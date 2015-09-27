@@ -32,23 +32,10 @@ namespace ctci
 
 		public static void RunTests ()
 		{
-			Print (GetPowerset (new List<int> () { 1 }));	
-			Print (GetPowerset (new List<int> () { 1, 2 }));
-			Print (GetPowerset (new List<int> () { 1, 2, 3 }));	
-			Print (GetPowerset (new List<int> () { 1, 2, 3, 4 }));	
-		}
-
-		private static void Print(List<List<int>> a)
-		{
-			
-			foreach (var list in a) {
-				Console.Write ("{ ");
-				foreach (var i in list) {
-					Console.Write (i + " ");
-				}
-				Console.WriteLine ("}");
-			}
-			Console.WriteLine ();
+			Util.Print (GetPowerset (new List<int> () { 1 }));	
+			Util.Print (GetPowerset (new List<int> () { 1, 2 }));
+			Util.Print (GetPowerset (new List<int> () { 1, 2, 3 }));	
+			Util.Print (GetPowerset (new List<int> () { 1, 2, 3, 4 }));	
 		}
 	}
 }
