@@ -73,6 +73,7 @@
     <Compile Include="Q8_5.cs" />
     <Compile Include="Q8_6.cs" />
     <Compile Include="Q8_7.cs" />
+    <Compile Include="Q8_8.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
