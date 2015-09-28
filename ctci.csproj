@@ -17,8 +17,8 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
     <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>full</DebugType>
@@ -75,6 +75,7 @@
     <Compile Include="Q8_7.cs" />
     <Compile Include="Q8_8.cs" />
     <Compile Include="Q8_9.cs" />
+    <Compile Include="Q8_10.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
