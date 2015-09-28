@@ -16,6 +16,21 @@ namespace ctci
 			}
 			Console.WriteLine ();
 		}
+
+		public static void Print(List<int> list)
+		{
+			foreach(var i in list)
+				Console.Write (i + " ");
+			Console.WriteLine ();
+		}
+
+		public static void Print(List<string> list)
+		{
+			foreach(var i in list)
+				Console.WriteLine (i + " ");
+			Console.WriteLine ();
+		}
+
 	}
 }
 
