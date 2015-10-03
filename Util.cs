@@ -17,6 +17,19 @@ namespace ctci
 			Console.WriteLine ();
 		}
 
+		public static void Print(List<int[]> a)
+		{
+			foreach (var list in a) {
+				Console.Write ("{ ");
+				foreach (var i in list) {
+					Console.Write (i + " ");
+				}
+				Console.WriteLine ("}");
+			}
+			Console.WriteLine ();
+		}
+
+
 		public static void Print(List<int> list)
 		{
 			foreach(var i in list)
@@ -30,6 +43,8 @@ namespace ctci
 				Console.WriteLine (i + " ");
 			Console.WriteLine ();
 		}
+
+
 
 	}
 }
