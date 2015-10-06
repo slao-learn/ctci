@@ -82,6 +82,7 @@
     <Compile Include="Q8_14.cs" />
     <Compile Include="Q10_2.cs" />
     <Compile Include="Q10_3.cs" />
+    <Compile Include="Q10_4.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
