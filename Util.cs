@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ctci
 {
@@ -44,6 +45,12 @@ namespace ctci
 			Console.WriteLine ();
 		}
 
+		public static void Print(string[] list)
+		{
+			foreach(var i in list)
+				Console.WriteLine (i + " ");
+			Console.WriteLine ();
+		}
 
 
 	}
