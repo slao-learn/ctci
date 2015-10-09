@@ -52,7 +52,12 @@ namespace ctci
 			Console.WriteLine ();
 		}
 
-
+		public static void Print(Dictionary<string, int> t)
+		{
+			foreach (var p in t) {
+				Console.WriteLine ("({0}, {1})", p.Key, p.Value);
+			}
+		}
 	}
 }
 
